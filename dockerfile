@@ -33,7 +33,7 @@ RUN curl -LO ${CURL_OPTIONS} \
 #
 # Precautionary failure with messages
 
-CMD echo 'McAfee Vulnerable Containers LAB - Vulnerable image' && /bin/false
+CMD echo 'Welcome to the McAfee Containers LAB - Vulnerable image' && /bin/false
 
 # Basic labels.
 # http://label-schema.org/
